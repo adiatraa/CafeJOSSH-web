@@ -1,9 +1,9 @@
 <%@page import="jossh.connection.DbCon"%>
 <%@page import="jossh.Dao.ProductDao"%>
 <%@page import="jossh.model.*"%>
+<%@page import="jossh.servlet.*"%>
 <%@page import="java.util.*"%>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 
 <%
 ProductDao pd = new ProductDao(DbCon.getConnection());

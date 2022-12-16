@@ -70,7 +70,7 @@ public class ProductDao {
         return sum;
     }
 
-    
+	
     public List<Cart> getCartProducts(ArrayList<Cart> cartList) {
         List<Cart> book = new ArrayList<>();
         try {
